@@ -1,0 +1,177 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+h4{
+	font-size: 1em; 
+	font-weight: bold;
+}
+
+.active{
+	background: white;
+    text-transform: uppercase;
+	text-align: center;
+}
+
+.active a{
+	text-decoration: none;;
+}
+
+/*Style the images*/
+img{
+    height: 200px;
+    width:200px;
+    border: 3px groove cyan;
+    padding: 5px;
+    border-radius: 25px;
+    margin: 10px;
+	
+}
+img:hover{
+	background-color: darkblue;
+	opacity: 50%;
+
+}
+#bright{
+	width: 320px
+}
+#climate{
+	width:400px
+}
+
+#nft{
+	width: 300px;
+}
+
+#michnft{
+	width: 300px;
+}
+
+#bh{
+	width: 250px;
+}
+
+#dj{
+	width: 150px;
+}
+
+#wedd{
+	width: 310px;
+}
+
+#island{
+	width: 290px;
+}
+
+#vt{
+	width: 270px;
+}
+
+#vol{
+	width: 130px;
+}
+
+#greensch{
+	width: 300px;
+}
+
+#greenrib{
+	width: 300px;
+}
+
+#pluglogo{
+	width:300px;
+	height: 100px;
+	border-radius: 10px;
+	
+}
+
+#plugbuild{
+	width: 350px;
+}
+
+#plugconf{
+	width: 300px;
+}
+
+#smbiz{
+	width: 300px;
+	height: 100px;
+}
+
+#website{
+width: 250px;
+}
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+}
+
+/*Add borders around the main components and some
+space too*/
+header, nav, main, h1, footer{
+	border: 2px groove grey;
+	margin: 10px 0;
+}
+
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav li{
+	background: linear-gradient(to bottom, #66ffcc 0%, #0066ff 100%);
+	padding: 5px;
+	width:25%;
+	border:1px solid black;
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	border-radius: 20px;
+	text-decoration-color: white;
+	font-size: 50%;
+}
+
+input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box; 
+	border-radius: 25px;
+  }
+
+  input[type=submit] {
+	background-color: #06e5f5;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;  }
+  
+  
+
+
+
+
+
+/*Added this so the links stay the same color*/
+a:visited{color: darkblue;}
+

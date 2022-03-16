@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="icon" href="images/favicon.png">
+	
+	<link rel="stylesheet" href="css/html5reset.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<title>Home</title>
+</head>
+
+
+<body>
+	
+	<a class = "skip" href="#main">Skip to Main Content</a>
+	
+	<header>
+		<!-- Nav is a sematic tag page that aids accessibility -->
+		<nav>
+			<ul>
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				<li class="active"><a href = "index.html" >Home</a></li>
+				<li><a href = "experience.html">Experience</a></li>
+				<li><a href = "projects.html">Projects</a></li>
+				<li><a href = "hobbies.html">Hobbies</a></li>
+			</ul>
+		</nav>
+		
+		<h1 id="main">Collin Socha</h1>
+        <img src = "images/download.jpg" alt="Picture of Collin Socha" width="200" height="300"/>
+	</header>
+
+	<!-- Every page should have a main tag for accessibility -->
+<div>
+	<main>
+		<p>I am currently a sophomore at the University of Michigan applying to the School of Information.
+        I am interested in Information Tech, Biotech, Climatetech, Cleantech AI, AR/VR, and Metaverse related tech. 
+        My schooling experiences and entrepreneurial endeavors have given me insight into the dynamics of a business-tech career and effectively communicating with professionals and clients.</p>
+
+		<!-- Make sure your anchor tags have a link (href) and a clickable component -->
+		<p>I am originally from Weston, Connecticut where I played varsity soccer, ran varsity track,
+            and was the President of the my high school environmental club known as the 
+            <a href = "https://westontoday.news/articles/191008-green-ribbon">Green Team</a>.
+            After the COVID pandemic began during my senior year of high school, 
+            I began working on my first entreprenurial project known as SumCollege.
+            This began my journey as a tech entrepreneur now having worked on several
+            different startup teams.
+        </p>  
+
+
+<h2 id="contact"> Contact me directly below! </h3>
+
+
+<form
+  action="https://formspree.io/f/mnqwzzol"
+  method="POST"
+>
+<fieldset> 
+	<label for="name">Name:</label>
+	<input type="text" placeholder="Enter Your Name" name="name" id = "name"><br/>
+	<label> Email: 
+		<input type="email" placeholder="Enter Your Email" name="name" value = "email@umich.edu">
+	</label><br/>
+	<label>Message:
+		<input type="text" placeholder="Enter Your Message" name="name" id = "message"><br/>
+	  </label>
+	<input type = "submit" value = "Send!">
+</fieldset>
+</form>
+
+
+	</main>
+
+
+
+
+</div>
+	<!-- Footer is a sematic tag page that aids readability -->
+	<footer>
+		<p>Collin Socha &copy; 2022</p>
+	</footer>
+</body>
+</html>
